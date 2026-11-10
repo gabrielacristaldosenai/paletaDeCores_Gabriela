@@ -1,0 +1,25 @@
+body{
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+    background: linear-gradient(rgb(70, 70, 70), rgb(170, 170, 170));
+}
+#telaPintura{
+    width: 400px;
+    height: 300px;
+    border: 5px solid black;
+    margin: 20px auto;
+    background-color: gainsboro;
+    border-radius: 10px;
+}
+#paleta{
+    display: flex;
+    justify-content: center;
+}
+.pincel{
+    width: 70px;
+    height: 70px;
+    border: 2px solid black;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+}
